@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How It Works – TreadWatt Technology</title>
+  <meta name="description" content="Discover the science and engineering behind TreadWatt's piezoelectric energy harvesting system." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="home.html" class="logo">
+        <span class="logo-mark">⚡</span>
+        <span class="logo-text">TreadWatt</span>
+      </a>
+      <nav class="site-nav">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="how-it-works.html" class="active">How It Works</a>
+        <a href="impact.html">Impact</a>
+        <a href="contact.html" class="btn btn-outline">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <span class="page-tag">Technology</span>
+          <h1>The Science Behind TreadWatt</h1>
+          <p>Understanding how we transform footsteps into electricity using piezoelectric technology.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Overview -->
+    <section class="section process">
+      <div class="container">
+        <div class="section-header">
+          <h2>Energy Conversion Process</h2>
+          <p class="section-intro">
+            TreadWatt uses a five-stage process to capture, convert, store, and distribute kinetic energy 
+            from human movement.
+          </p>
+        </div>
+        
+        <div class="process-flow">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <div class="step-icon">👣</div>
+            <h3>Mechanical Input</h3>
+            <p>
+              When a person steps on a TreadWatt tile or uses equipped gym machinery, their body weight 
+              (typically 50-100 kg) creates downward pressure and mechanical stress.
+            </p>
+            <div class="step-detail">
+              <strong>Force Range:</strong> 500-1000 Newtons per step
+            </div>
+          </div>
+          
+          <div class="process-arrow">→</div>
+          
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <div class="step-icon">🔬</div>
+            <h3>Piezoelectric Effect</h3>
+            <p>
+              Embedded piezoelectric materials (PZT ceramics or PVDF polymers) deform under pressure, 
+              causing charge displacement and generating an electric potential.
+            </p>
+            <div class="step-detail">
+              <strong>Voltage Output:</strong> 20-40V AC per tile
+            </div>
+          </div>
+          
+          <div class="process-arrow">→</div>
+          
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <div class="step-icon">⚙️</div>
+            <h3>Rectification & Conditioning</h3>
+            <p>
+              AC voltage from piezoelectric elements passes through a full-bridge rectifier and voltage 
+              regulator circuit, converting it to stable DC power.
+            </p>
+            <div class="step-detail">
+              <strong>Output:</strong> 5V or 12V DC regulated
+            </div>
+          </div>
+          
+          <div class="process-arrow">→</div>
+          
+          <div class="process-step">
+            <div class="step-number">04</div>
+            <div class="step-icon">🔋</div>
+            <h3>Energy Storage</h3>
+            <p>
+              Conditioned DC power charges lithium-ion battery packs or supercapacitors, buffering 
+              energy for continuous availability regardless of foot traffic patterns.
+            </p>
+            <div class="step-detail">
+              <strong>Capacity:</strong> 100-500 Wh per module
+            </div>
+          </div>
+          
+          <div class="process-arrow">→</div>
+          
+          <div class="process-step">
+            <div class="step-number">05</div>
+            <div class="step-icon">💡</div>
+            <h3>Power Distribution</h3>
+            <p>
+              Stored energy powers LED lighting, IoT sensors, USB charging ports, or feeds back into 
+              the local grid through an inverter system.
+            </p>
+            <div class="step-detail">
+              <strong>Applications:</strong> 5-50W continuous load
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Piezoelectric Technology -->
+    <section class="section piezo-tech">
+      <div class="container">
+        <div class="tech-grid">
+          <div class="tech-content">
+            <span class="section-tag">Core Technology</span>
+            <h2>Piezoelectric Materials</h2>
+            <p>
+              Piezoelectricity is the ability of certain materials to generate an electric charge in response 
+              to applied mechanical stress. TreadWatt leverages this phenomenon using advanced ceramic and 
+              polymer composites.
+            </p>
+            
+            <h3>Materials We Use</h3>
+            <div class="material-list">
+              <div class="material-item">
+                <h4>🔸 PZT Ceramics (Lead Zirconate Titanate)</h4>
+                <ul>
+                  <li><strong>Efficiency:</strong> High piezoelectric coefficient (d33 = 300-600 pC/N)</li>
+                  <li><strong>Durability:</strong> Excellent for high-stress applications</li>
+                  <li><strong>Use Case:</strong> Primary energy generation in floor tiles</li>
+                </ul>
+              </div>
+              
+              <div class="material-item">
+                <h4>🔸 PVDF Polymers (Polyvinylidene Fluoride)</h4>
+                <ul>
+                  <li><strong>Flexibility:</strong> Bendable and lightweight</li>
+                  <li><strong>Sensitivity:</strong> Responds to low-force impacts</li>
+                  <li><strong>Use Case:</strong> Secondary layers and gym equipment sensors</li>
+                </ul>
+              </div>
+              
+              <div class="material-item">
+                <h4>🔸 Composite Arrays</h4>
+                <ul>
+                  <li><strong>Innovation:</strong> Multi-layer stacks for enhanced output</li>
+                  <li><strong>Optimization:</strong> Tuned resonance frequencies</li>
+                  <li><strong>Use Case:</strong> Maximizing energy capture per step</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tech-visual">
+            <div class="diagram-box">
+              <h4>Tile Cross-Section</h4>
+              <div class="layer-diagram">
+                <div class="layer">
+                  <span class="layer-label">Top Surface</span>
+                  <span class="layer-desc">Non-slip rubber (5mm)</span>
+                </div>
+                <div class="layer">
+                  <span class="layer-label">Pressure Plate</span>
+                  <span class="layer-desc">Aluminum alloy (3mm)</span>
+                </div>
+                <div class="layer">
+                  <span class="layer-label">Piezo Array</span>
+                  <span class="layer-desc">PZT ceramics (8mm)</span>
+                </div>
+                <div class="layer">
+                  <span class="layer-label">Spring System</span>
+                  <span class="layer-desc">Mechanical return (10mm)</span>
+                </div>
+                <div class="layer">
+                  <span class="layer-label">Circuit Board</span>
+                  <span class="layer-desc">Rectifier & regulator (2mm)</span>
+                </div>
+                <div class="layer">
+                  <span class="layer-label">Base Plate</span>
+                  <span class="layer-desc">Steel reinforced (5mm)</span>
+                </div>
+              </div>
+              <p class="diagram-note"><strong>Total Thickness:</strong> 50mm (5cm)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Circuit Design -->
+    <section class="section circuit-design">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Electronics</span>
+          <h2>Power Management Circuit</h2>
+        </div>
+        
+        <div class="circuit-grid">
+          <div class="circuit-card">
+            <h3>⚡ Rectifier Stage</h3>
+            <p><strong>Component:</strong> Full-bridge diode rectifier (1N4007)</p>
+            <p><strong>Function:</strong> Converts AC from piezo elements to pulsating DC</p>
+            <p><strong>Efficiency:</strong> ~95%</p>
+          </div>
+          
+          <div class="circuit-card">
+            <h3>🔧 Voltage Regulation</h3>
+            <p><strong>Component:</strong> Buck converter (LM2596) or LDO regulator</p>
+            <p><strong>Function:</strong> Stabilizes output to 5V or 12V DC</p>
+            <p><strong>Efficiency:</strong> ~85-90%</p>
+          </div>
+          
+          <div class="circuit-card">
+            <h3>🔋 Charge Controller</h3>
+            <p><strong>Component:</strong> TP4056 or BQ24650 IC</p>
+            <p><strong>Function:</strong> Manages battery charging with overcharge protection</p>
+            <p><strong>Features:</strong> CC/CV charging, thermal shutdown</p>
+          </div>
+          
+          <div class="circuit-card">
+            <h3>📊 Energy Monitor</h3>
+            <p><strong>Component:</strong> INA219 current/voltage sensor</p>
+            <p><strong>Function:</strong> Tracks real-time power generation and consumption</p>
+            <p><strong>Interface:</strong> I2C communication to microcontroller</p>
+          </div>
+          
+          <div class="circuit-card">
+            <h3>🌐 IoT Module</h3>
+            <p><strong>Component:</strong> ESP32 or Arduino with WiFi</p>
+            <p><strong>Function:</strong> Transmits data to cloud dashboard</p>
+            <p><strong>Data:</strong> Energy generated, battery status, usage analytics</p>
+          </div>
+          
+          <div class="circuit-card">
+            <h3>🔌 Load Management</h3>
+            <p><strong>Component:</strong> MOSFET switches (IRLZ44N)</p>
+            <p><strong>Function:</strong> Controls power distribution to connected devices</p>
+            <p><strong>Protection:</strong> Overcurrent and short-circuit safeguards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Specifications -->
+    <section class="section specifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Performance</span>
+          <h2>Technical Specifications</h2>
+        </div>
+        
+        <div class="specs-table">
+          <div class="spec-category">
+            <h3>⚡ Electrical Performance</h3>
+            <table>
+              <tr>
+                <td>Energy per Step</td>
+                <td><strong>5-8 Joules</strong></td>
+              </tr>
+              <tr>
+                <td>Power Output (Active)</td>
+                <td><strong>2-10 Watts</strong></td>
+              </tr>
+              <tr>
+                <td>Voltage Output</td>
+                <td><strong>5V / 12V DC (regulated)</strong></td>
+              </tr>
+              <tr>
+                <td>Conversion Efficiency</td>
+                <td><strong>65-70%</strong></td>
+              </tr>
+              <tr>
+                <td>Peak Current</td>
+                <td><strong>2A @ 5V</strong></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="spec-category">
+            <h3>🏗️ Physical Specifications</h3>
+            <table>
+              <tr>
+                <td>Tile Dimensions</td>
+                <td><strong>50cm × 50cm × 5cm</strong></td>
+              </tr>
+              <tr>
+                <td>Weight per Tile</td>
+                <td><strong>8-12 kg</strong></td>
+              </tr>
+              <tr>
+                <td>Load Capacity</td>
+                <td><strong>Up to 200 kg</strong></td>
+              </tr>
+              <tr>
+                <td>Surface Material</td>
+                <td><strong>Non-slip rubber composite</strong></td>
+              </tr>
+              <tr>
+                <td>IP Rating</td>
+                <td><strong>IP65 (dust/water resistant)</strong></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="spec-category">
+            <h3>🔋 Storage & Battery</h3>
+            <table>
+              <tr>
+                <td>Battery Type</td>
+                <td><strong>Lithium-ion (18650 cells)</strong></td>
+              </tr>
+              <tr>
+                <td>Capacity per Module</td>
+                <td><strong>100-500 Wh</strong></td>
+              </tr>
+              <tr>
+                <td>Charge Time (Full)</td>
+                <td><strong>4-6 hours (moderate traffic)</strong></td>
+              </tr>
+              <tr>
+                <td>Discharge Protection</td>
+                <td><strong>BMS with low-voltage cutoff</strong></td>
+              </tr>
+              <tr>
+                <td>Cycle Life</td>
+                <td><strong>2000+ charge cycles</strong></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="spec-category">
+            <h3>🌡️ Environmental</h3>
+            <table>
+              <tr>
+                <td>Operating Temperature</td>
+                <td><strong>-20°C to 60°C</strong></td>
+              </tr>
+              <tr>
+                <td>Humidity Tolerance</td>
+                <td><strong>0-95% RH (non-condensing)</strong></td>
+              </tr>
+              <tr>
+                <td>Lifespan</td>
+                <td><strong>20+ years</strong></td>
+              </tr>
+              <tr>
+                <td>Maintenance</td>
+                <td><strong>Minimal (annual inspection)</strong></td>
+              </tr>
+              <tr>
+                <td>Recyclability</td>
+                <td><strong>85% of materials</strong></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section advantages">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why TreadWatt Technology Stands Out</h2>
+        </div>
+        
+        <div class="advantages-grid">
+          <div class="advantage-card">
+            <div class="adv-icon">✅</div>
+            <h3>Passive Generation</h3>
+            <p>No external power needed—works entirely from human movement without user effort.</p>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="adv-icon">✅</div>
+            <h3>Scalable Design</h3>
+            <p>Modular tiles can be deployed individually or in large arrays for varying power needs.</p>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="adv-icon">✅</div>
+            <h3>Weather Independent</h3>
+            <p>Unlike solar, works 24/7 regardless of weather, season, or time of day.</p>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="adv-icon">✅</div>
+            <h3>Low Maintenance</h3>
+            <p>Solid-state components with no moving parts (except springs) ensure long-term reliability.</p>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="adv-icon">✅</div>
+            <h3>Retrofit Compatible</h3>
+            <p>Can be installed over existing flooring or integrated into new construction.</p>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="adv-icon">✅</div>
+            <h3>Data-Enabled</h3>
+            <p>IoT connectivity provides real-time analytics on foot traffic and energy generation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>See It in Action</h2>
+          <p>Watch our prototype demonstration and explore real-world test results.</p>
+          <div class="cta-buttons">
+            <a href="impact.html" class="btn btn-primary btn-lg">View Impact</a>
+            <a href="contact.html" class="btn btn-outline-white btn-lg">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span class="logo-mark">⚡</span>
+            <span class="logo-text">TreadWatt</span>
+          </div>
+          <p>Powering the future, one step at a time.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter" class="social-icon">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-icon">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="GitHub" class="social-icon">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Project</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="how-it-works.html">Technology</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="impact.html">Impact Report</a></li>
+            <li><a href="#">Research Papers</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Partnerships</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 TreadWatt. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
